@@ -1,0 +1,13 @@
+# Real captures hold real keys and addresses: never commit them
+*.pklg
+*.pcapng
+*.mobileconfig
+local/
+
+__pycache__/
+*.egg-info/
+build/
+dist/
+.venv/
+.pytest_cache/
+.ruff_cache/
